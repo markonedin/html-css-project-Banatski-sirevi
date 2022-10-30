@@ -59,7 +59,7 @@ header a:hover{
 #baner {
     min-height: 250px;
     text-align: center;
-    background-image: url('../Slike/kontaktpozadina.jpg');
+    background-image: url('../../Slike/kontaktpozadina.jpg');
     color: darkred;
     font-weight: bold;
 }
