@@ -1,0 +1,26 @@
+@media(max-width:600px){
+    header #naslov, header nav, header nav li,
+    #kutije .kutija, article#main-col, aside#sajdbar{
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+    header{
+        padding-bottom: 20px;
+    }
+    article#main-col .naslov-stranice{
+        text-align: center;
+    }
+    article#main-col table{
+        text-align: center;
+        align-items: center;
+        width: 100%;
+    }
+    #baner h1{
+        margin-top: 40px;
+    }
+    aside#sajdbar h2{
+        text-align: center;
+    }
+
+}
