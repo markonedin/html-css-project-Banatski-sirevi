@@ -1,0 +1,98 @@
+body{
+    font:15px/1.5 Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: #f4f4f4;
+    background-image: url('../Slike/kontaktpozadina.jpg');
+}
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+header{
+    background: #35424a;
+    color: #ffffff;
+    padding-top:30px;
+    min-height: 70px;
+    border-bottom:yellow 3px solid;
+}
+header a{
+    color: yellow;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+header ul {
+    margin: 0;
+    padding: 0;   
+}
+header li{
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+header #naslov{
+    float: left;
+}
+header #naslov h1{
+    margin: 0;
+    color: yellow;
+}
+header nav{
+    float: right;
+    margin-top:10px;   
+}
+header .trenutno a{
+    color: tomato;
+    font-weight: bold;
+}
+header a:hover{
+    color:greenyellow;
+    transition:0.5s; 
+    font-size: 40px;
+    border: 1px solid beige;
+    background-color: beige; 
+}
+.pozadina{
+    padding: 15px;
+    background: #35424a;
+    color: #ffffff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    animation-name: animacijatekst;
+    animation-duration: 7s;
+    animation-iteration-count: 1; 
+}
+aside#sajdbar{
+    float: right;
+    width: 30%;
+    margin-top: 10px;
+    animation-name: animacijatekst;
+    animation-duration: 7s;
+    animation-iteration-count: 1; 
+}
+article#main-col{
+    float: left;
+    width: 65%;
+}
+@keyframes animacijatekst {
+    from{background: #35424a;}
+    to{background: black;}
+    from{color: #ffffff;}
+    to{color: red;}
+}
+aside#sajdbar , .pozadina:hover{
+    color: maroon;
+    font-weight: bolder;
+    border: 5px solid beige;
+    background-color: beige;
+}
+footer{
+    padding: 20px;
+    border-top: yellow 3px solid;
+    color: wheat;
+    background-color: tomato;
+    text-align: center;
+    margin-top: 150px;
+}
