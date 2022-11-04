@@ -1,0 +1,7 @@
+# BEGIN Rewrite
+<ifModule mod_rewrite.c>
+Rewrite EngineOn
+RewriteCond %{HTTP_HOST} ^www\.example\.com$
+RewriteRule ^/?$ "http\:\/\/example\.com\/" [R=301,L]
+</ifModule>
+# END Rewrite
