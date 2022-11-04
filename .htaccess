@@ -1,14 +1,7 @@
 # BEGIN Rewrite
 <ifModule mod_rewrite.c>
 RewriteEngine On
-RewriteCond %{HTTP_HOST} ^www\.markonedin.github.io/html-css-project-Banatski-sirevi/\.com$
-RewriteRule ^/?$ "http\:\/\/www.markonedin.github.io/html-css-project-Banatski-sirevi/\.com\/" [R=301,L]
 RewriteCond %{HTTP_HOST} !^https://markonedin.github.io/html-css-project-Banatski-sirevi/$ [NC]
 RewriteRule ^(.*)$ http://www.markonedin.github.io/html-css-project-Banatski-sirevi//$1 [L,R=301]
-RewriteEngine on
-
-RewriteBase /
-
-RewriteRule (.*) http://www.markonedin.github.io/html-css-project-Banatski-sirevi/ /$1 [R=301,L]
 </ifModule>
 # END Rewrite
