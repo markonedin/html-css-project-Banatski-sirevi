@@ -3,5 +3,7 @@
 Rewrite EngineOn
 RewriteCond %{HTTP_HOST} ^www\.markonedin.github.io/html-css-project-Banatski-sirevi/\.com$
 RewriteRule ^/?$ "http\:\/\/markonedin.github.io/html-css-project-Banatski-sirevi/\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} !^https://markonedin.github.io/html-css-project-Banatski-sirevi/$ [NC]
+RewriteRule ^(.*)$ http://www.https://markonedin.github.io/html-css-project-Banatski-sirevi//$1 [L,R=301]
 </ifModule>
 # END Rewrite
