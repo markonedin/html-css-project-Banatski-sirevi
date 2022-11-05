@@ -1,0 +1,23 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+    <urlset
+        xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml"
+        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9">
+	<url>
+		<loc>https://markonedin.github.io/html-css-project-Banatski-sirevi/onama.html</loc>
+	</url>
+	<url>
+		<loc>https://markonedin.github.io/html-css-project-Banatski-sirevi/proizvodi.html</loc>
+	</url>
+	<url>
+		<loc>https://markonedin.github.io/html-css-project-Banatski-sirevi/</loc>
+	</url>
+	<url>
+		<loc>https://markonedin.github.io/html-css-project-Banatski-sirevi/index.html</loc>
+	</url>
+	<url>
+		<loc>https://markonedin.github.io/html-css-project-Banatski-sirevi/kontakt.html</loc>
+	</url>
+</urlset>
