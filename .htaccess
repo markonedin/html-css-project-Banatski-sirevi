@@ -5,3 +5,14 @@ RewriteCond %{HTTP_HOST} !^https://markonedin.github.io/html-css-project-Banatsk
 RewriteRule ^(.*)$ http://www.markonedin.github.io/html-css-project-Banatski-sirevi//$1 [L,R=301]
 </ifModule>
 # END Rewrite
+
+# BEGIN WordPress
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteRule ^markonedin.github.io/html-css-project-Banatski-sirevi/$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . https://markonedin.github.io/html-css-project-Banatski-sirevi/ [L]
+</IfModule>
+# END WordPres
