@@ -1,4 +1,5 @@
 User-agent: *
 Disallow: /Slike/
+Disallow: /cgi-bin/
 
 sitemap: https://markonedin.github.io/html-css-project-Banatski-sirevi/sitemap.xml
